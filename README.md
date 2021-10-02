@@ -41,8 +41,10 @@ Reflection
 Spring must use reflection to inject private fields in case of FIELD INJECTION.
 If we inject with CONSTRUCTOR INJECTION, we do not have any reflection.
 
-CONSTRUCTOR INJECTION forces us follow SOLID principles
+CONSTRUCTOR INJECTION forces us follow one of SOLID principles - Single Responsibility
 
-Single Responsibility
 A class should have only ona responsibility. Constructor forces us to have 
 fewer dependencies, so that means less functionality
+
+Summary
+Always use CONSTRUCTOR INJECTION.
