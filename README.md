@@ -47,4 +47,5 @@ A class should have only ona responsibility. Constructor forces us to have
 fewer dependencies, so that means less functionality
 
 Summary
+
 Always use CONSTRUCTOR INJECTION.
