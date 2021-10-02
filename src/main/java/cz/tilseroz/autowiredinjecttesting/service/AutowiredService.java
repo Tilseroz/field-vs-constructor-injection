@@ -26,6 +26,9 @@ public class AutowiredService {
     @Autowired
     private UserService userService;
 
+    /**
+     * Just method for test purposes using all injected services
+     */
     public Book retrieveBookByUserIdOrMail(String username, String email) {
 
         Long userId = userService.retrieveUserByUsername(username);
